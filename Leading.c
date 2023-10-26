@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <string.h>
+#include <ctype.h>
+int main() {
+    printf("Enter number of rules : ");
+    scanf("%d" , &n);
+    char L[n][1] , R[n][100];
+    for (int i = 0 ; i < n ; i++){
+        printf("R%d : " , i+1);
+        scanf("%s->%s" , &L[i] , &R[i]);
+    }
+    char Le[10][20];
+    int c = 0;
+    for (int i = 0 ; i<n; i++){
+        for(int j = 0 ; j < 10 ; j++){
+            if (Le[j] == L[i]){
+                //Another rule for Leading of a non terminal  
+                //Add in Le[j] otherwise make new entry
+                if (isupper(R[0]){
+                    if(islower(R[!])){
+                        //rule 1
+                        Le[j][c] == R[1];
+                        c++;
+                    }
+                    else{
+                        //rule 2
+                        for (int k = 0 ; k < 10 ;k++){
+                            if (Le[k] == R[0]){
+                                //copy leading of Le[k]
+                                strcat(Le[j][] , Le[k]);
+                            }
+                        }
+                    }
+                }
+                else if (islower(R[0])){
+                    Le[j][c] = R[0];
+                    c++;
+                }
+            }
+        }
+    }
+    return 0;
+}
