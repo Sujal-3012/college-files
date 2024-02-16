@@ -1,0 +1,28 @@
+print("Hello world")
+if (5>2) : 
+    print("5 is greater than 2")
+else :
+    print("python is weak at maths")
+
+x =float(10) #type casting 
+print(x)
+
+y = "Sahil"
+print(y)
+
+#printing types 
+print(type(x))
+print(type(y))
+
+a = input("Enter your name : ")
+b = int(input("Enter your age : "))
+print("Your name is " + a + " and your age is " + str(b) + "\n")
+
+if (b >= 18) :
+    print("You can vote in next elections")
+
+fruits = ["apple", "banana", "cherry"]
+x, y, z = fruits
+print(x)
+print(y)
+print(z)
