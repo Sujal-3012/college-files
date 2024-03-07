@@ -1,0 +1,122 @@
+<<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hometown Page</title>
+</head>
+<style>
+     body {
+  width: 90%;
+  max-width: 2000px;
+  margin: 0 auto;
+  font:
+    0.9em/1.2 Arial,
+    Helvetica,
+    sans-serif;
+}
+
+.box1 {
+  width: 1080px;
+  height: 250px;
+  border-radius: 10px;
+  background-color: rgb(207 232 220);
+  padding: 2em;
+}
+.box2 {
+  width: 1080px;
+  height: 400px;
+  border-radius: 10px;
+  background-color: rgb(207 232 220);
+  padding: 2em;
+}
+.color {
+  background-color: rgb(94, 179, 138);
+  padding: 2em;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+}
+
+
+</style>
+<body class = "color">
+    <center>
+    <h1>My Hometown</h1>
+    <img src="data:image/jpeg;base64,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" alt="" srcset="" width=50% height=50%>
+    </center>
+    <br>
+    <h3> About: </h3>
+    <p>Aligarh is a city in the state of Uttar Pradesh in India. It is the administrative headquarters of Aligarh district, and lies 342 kilometres northwest of state capital Lucknow and approximately 130 kilometres southeast of the capital, New Delhi.</p>
+    <center>
+        <hr>
+        <br>
+   <div class="box1">
+   	  <h3>Food</h3>
+   	  <p>Introduction:
+
+        Aligarh, a city with a rich history and cultural heritage, is not only renowned for its academic institutions but also for its diverse and delectable culinary offerings. The city's food scene is a delightful tapestry of flavors, blending traditional Mughlai cuisine with local specialties and global influences. Join us on a gastronomic journey through the streets of Aligarh, where every bite tells a story.
+        
+        Biryani Bliss:
+        
+        No culinary exploration of Aligarh would be complete without savoring its sumptuous biryanis. The local Dum Biryani is a crowd-pleaser, featuring tender meat or vegetables marinated in aromatic spices, slow-cooked with basmati rice, and sealed with a layer of dough. The result is a fragrant and flavorful dish that embodies the essence of Aligarh's culinary prowess.
+        
+        Street Food Extravaganza:
+        
+        Aligarh's bustling streets come alive with an array of street food that caters to every palate. Join the locals in savoring spicy and tangy chaats at street corners, where vendors skillfully mix ingredients to create a symphony of flavors. Don't miss the popular Pani Puri and Aloo Tikki, accompanied by refreshing glasses of masala chai.
+        
+        Local Delicacies:
+        
+        Aligarh's culinary tapestry is woven with local specialties that showcase the region's unique flavors. Indulge in the famous Aligarh Peda, a sweet confection made with khoa, sugar, and flavored with cardamom. The city is also known for its delectable Nihari, a slow-cooked stew that originated in Old Delhi but has found a loving home in Aligarh.
+        
+        Global Fusion:
+        
+        As Aligarh embraces modernity, the culinary scene has witnessed a fusion of global influences. Trendy cafes and restaurants dot the cityscape, offering a diverse range of dishes that cater to evolving tastes. From international cuisines to inventive takes on traditional recipes, Aligarh's food scene is evolving to satisfy the palates of a diverse and discerning audience.
+        
+        </p>
+   </div>
+   <br>
+   <div class="box2">
+       <h3>Places</h3>
+       <p>Aligarh, a city with a rich historical and cultural background, offers visitors a variety of interesting places to explore. From ancient monuments to educational institutions, here are some of the must-visit places in Aligarh:
+
+        Aligarh Fort:
+        Dominating the city's landscape, the Aligarh Fort is a historical marvel dating back to the 16th century. Built by Ibrahim Lodhi, the fort has witnessed various phases of Indian history. The Sheesh Mahal and the Dor Fortress inside the complex are notable attractions.
+        
+        AMU (Aligarh Muslim University):
+        Aligarh is home to the prestigious Aligarh Muslim University, an educational institution of international repute. The campus is not only an academic hub but also boasts beautiful architecture, including the iconic Sir Syed Hall and the Maulana Azad Library.
+        
+        Khereshwar Temple:
+        A serene and ancient temple dedicated to Lord Shiva, Khereshwar Temple is a significant religious site in Aligarh. The temple's tranquil surroundings provide a peaceful retreat for devotees and tourists alike.
+        
+        Dor Fortress:
+        Situated within the Aligarh Fort, the Dor Fortress is a unique structure with four bastions, each representing different cultural influences. The architecture reflects a blend of Hindu, Persian, Turkish, and British styles.
+        
+        Maulana Azad Library:
+        Part of the Aligarh Muslim University, the Maulana Azad Library is one of the largest libraries in Asia. It houses a vast collection of books, manuscripts, and rare documents, attracting scholars and researchers from around the world.
+        
+        Sheesh Mahal:
+        Located within the Aligarh Fort, the Sheesh Mahal is a beautiful palace adorned with intricate mirror work. The reflective surfaces create a mesmerizing effect, making it a must-see for visitors interested in architectural marvels.
+        
+        Aligarh Jama Masjid:
+        An important religious site in the city, the Aligarh Jama Masjid is a grand mosque with impressive Mughal architecture. The mosque's spacious courtyard and intricately designed domes make it a peaceful and aesthetically pleasing destination.
+        
+        Naqvi Park:
+        For those seeking a tranquil green space, Naqvi Park offers a peaceful environment for relaxation and leisure. It's a popular spot for locals and visitors to unwind and enjoy the natural surroundings.
+        
+        Aligarh Clock Tower:
+        The Clock Tower in the heart of the city is an iconic landmark. It not only serves a functional purpose but also stands as a symbol of Aligarh's historical significance.
+        
+        Aligarh Exhibition:
+        If you happen to visit during the annual Aligarh Exhibition, don't miss the opportunity to experience the vibrant local culture, traditional crafts, and a variety of delicious street food.
+        
+        These are just a few highlights of the many places worth exploring in Aligarh. Whether you're interested in history, architecture, or simply enjoying the local culture, Aligarh has something to offer for every traveler.
+        </p>
+    </div>
+</center>>
+ 
+</body>
+</html>
